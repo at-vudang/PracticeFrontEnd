@@ -1,0 +1,9 @@
+header h1:before{
+	content: '';
+	width: 20px;
+	background-color: black;
+	
+}
+header h1::after{
+	content: 'after';
+}

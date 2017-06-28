@@ -1,0 +1,132 @@
+
+.my_item{
+	float:left;
+	width: 33.33333%;
+	/*padding: 5px*/
+    box-sizing: border-box; 
+    margin-bottom: 10px;
+
+
+}
+
+.container{
+    max-width: 1240px;
+    margin: auto;
+}
+.sidebar-left {
+        margin-top: 0px; width: 24%; float: left;
+}
+.my_panel_header{
+	background-color: #d9e4e9;
+            padding: 20px;
+}
+.list_news li:nth-child(3n+1){
+    clear: left;
+}
+.my_item > div {
+	margin: 10px;
+	border:  solid 1px #dcdce4;
+	margin-top: 0px;
+
+}
+.my_item > div > div{
+	padding: 10px;
+}
+.my_panel_header > h1,h2,h3,h4,h5,h6 {
+	margin-top: 0px;
+}
+
+.title{
+    float : left;
+}
+.button{
+    float : right; 
+    font-style: bold;
+}
+.my_panel_content ul {
+    margin: 10px 0px 10px 45px;
+}
+.my_panel_content ul li {
+ font-size: 12pt;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.my_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    /*border-top:  solid 2px #dcdce4;*/
+}
+
+
+.my_nav li {
+    float: left;
+    border-left: solid 1px #dcdce4; 
+
+}
+.my_nav > li:first-child{
+    border-left: solid 0px #dcdce4;
+
+}
+.my_nav > li:last-child{
+    border-left: solid 0px #dcdce4;
+
+}
+
+
+.my_nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 11pt
+}
+.my_nav > li:last-child a{
+   padding: 8px 16px;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+.my_nav li a:hover {
+    background-color: #ff2;
+}
+.my_nav li a:visited {
+    background-color: #ff2;
+}
+.form_book{
+    text-align: center;
+}
+.form_book input {
+        padding: 10px;
+    font-size: 13pt;
+    margin-bottom: 20px;
+       box-sizing: border-box;
+    width: 100%;
+}
+.form_book input:last-child {
+     margin: auto;
+     background-color: #4bbc56;
+    border: 0px;
+}
+.list_footer li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.social{
+    list-style-type: none;
+}
+.social li {
+    position: relative;
+}
+.social li a {
+    position: absolute;
+        left: -29px;
+    top: 6px;
+}
